@@ -13,7 +13,7 @@ public class Clock : MonoBehaviour
     void Update()
     {
         Vector3 currentRotation = transform.eulerAngles;
-        currentRotation.z += speed * Time.deltaTime;
+        currentRotation.z -= speed * Time.deltaTime;
         transform.eulerAngles = currentRotation;
 
     }
