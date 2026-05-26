@@ -7,6 +7,11 @@ public class Training : MonoBehaviour
     public SpriteRenderer piplup;
     public Camera gameCamera;
     public Color catchColor;
+    public Hider creatureHider;
+
+    
+
+
     public List<SpriteRenderer> uncaughtCreatures;
     public List<SpriteRenderer> caughtCreatures;
     
@@ -49,11 +54,13 @@ public class Training : MonoBehaviour
             piplup.color = catchColor;
 
             bool isCreatureCaught = caughtCreatures.Contains(piplup);
-            Debug.Log("Is creature caught[" + isCreatureCaught.ToString() + "]");
+            //Debug.Log("Is creature caught[" + isCreatureCaught.ToString() + "]");
 
             if (!isCreatureCaught)
             {
+                creatureHider.Hide();
                 caughtCreatures.Add(piplup);
+                
                 
 
             }
