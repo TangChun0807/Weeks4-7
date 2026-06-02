@@ -58,7 +58,7 @@ public class Training : MonoBehaviour
 
             if (!isCreatureCaught)
             {
-                creatureHider.Hide();
+               // creatureHider.Hide();
                 caughtCreatures.Add(piplup);
                 
                 
