@@ -1,5 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,7 +15,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         Vector3 playerPosition = transform.position;
+        
+
 
         if (Keyboard.current.upArrowKey.isPressed)
         {
@@ -36,5 +41,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.position = playerPosition;
+
+      
+
+
     }
 }
