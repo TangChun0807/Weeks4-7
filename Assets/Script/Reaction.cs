@@ -11,6 +11,7 @@ public class Reaction : MonoBehaviour
     public Sprite nearSpirte;
     public Sprite farSpirte;
     
+    
 
 
 
