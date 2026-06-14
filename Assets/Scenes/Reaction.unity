@@ -665,6 +665,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Reaction
   nearSpirte: {fileID: 21300000, guid: e9e6cd7843baf5745bd5d09a6e86b077, type: 3}
   farSpirte: {fileID: 21300000, guid: 3842729797771574e957e7ce1eb05a4d, type: 3}
+  NPC: {fileID: 469619132}
+  Player: {fileID: 662830827}
+  Image: {fileID: 2116719491}
 --- !u!1 &1330643387
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +934,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Reaction
   nearSpirte: {fileID: 0}
   farSpirte: {fileID: 0}
+  NPC: {fileID: 0}
+  Player: {fileID: 0}
+  Image: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
