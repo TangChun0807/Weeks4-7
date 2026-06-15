@@ -227,11 +227,12 @@ MonoBehaviour:
   bubble: {fileID: 992413462}
   reactionImage: {fileID: 2116719493}
   reactionSprites:
-  - {fileID: -887230987, guid: 529af4bdebfb57844ac40648c60dbc05, type: 3}
-  - {fileID: -8568042794190644651, guid: 85b4aa8c28bf1ac4ba529d37dd1fb803, type: 3}
-  - {fileID: -1048973536, guid: 529af4bdebfb57844ac40648c60dbc05, type: 3}
+  - {fileID: 21300000, guid: 3842729797771574e957e7ce1eb05a4d, type: 3}
+  - {fileID: 21300000, guid: e9e6cd7843baf5745bd5d09a6e86b077, type: 3}
+  - {fileID: 21300000, guid: e60a70b5852829645972836565f57a35, type: 3}
   reactionDistance: 2
   hidePosition: {x: 100, y: 100, z: 0}
+  eryx: {fileID: 662830827}
 --- !u!1 &662830827
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e60a70b5852829645972836565f57a35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bffcf276b2489814691322095c12c3a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
