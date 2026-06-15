@@ -17,11 +17,11 @@ public class Spawner : MonoBehaviour
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             //spawn a runner
-            Instantiate(runnerPrefab);
+           // Instantiate(runnerPrefab);
 
             //spawn a child of the runner 
             
-            Instantiate(runnerPrefab, transform);
+          //  Instantiate(runnerPrefab, transform);
 
          
 
