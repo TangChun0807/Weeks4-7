@@ -15,6 +15,7 @@ public class Reaction : MonoBehaviour
     bool isShowing = false;
     public GameObject eryx;
 
+    //
     private Transform testTransform;
 
 
