@@ -3,6 +3,7 @@ using UnityEngine;
 public class CarMove : MonoBehaviour
 {
     public float speed = 1f;
+    public GameObject slider;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,6 +17,7 @@ public class CarMove : MonoBehaviour
     {
         Vector3 movement = transform.position;
         movement.x += speed * Time.deltaTime;
+        
 
         if (movement.x > 6f || movement.x < -6f )
         {
@@ -23,5 +25,10 @@ public class CarMove : MonoBehaviour
         }
 
         transform.position = movement;
+    }
+
+    public void changeScale(float sliderValue)
+    {
+        transform.localScale = new Vector3(sliderValue, sliderValue, 1);
     }
 }

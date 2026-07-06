@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarMove
   speed: 1
-  slider: {fileID: 1312254067}
+  slider: {fileID: 0}
 --- !u!1 &1788424230
 GameObject:
   m_ObjectHideFlags: 0
