@@ -1,10 +1,13 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CarMove : MonoBehaviour
 {
     public float speed = 1f;
     public GameObject slider;
-    
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,4 +34,12 @@ public class CarMove : MonoBehaviour
     {
         transform.localScale = new Vector3(sliderValue, sliderValue, 1);
     }
+
+
+    public void ChangeSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
+
 }
