@@ -681,7 +681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnCar
   carPrefab: {fileID: 8199986187462786622, guid: c78f9150fef45a24bb61d28de68d0dd7, type: 3}
   cars: []
-  carCountText: {fileID: 0}
+  carCountText: {fileID: 492137359}
 --- !u!4 &1012482093
 Transform:
   m_ObjectHideFlags: 0
@@ -1908,10 +1908,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1862305746}
   m_HandleRect: {fileID: 1404373021}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 0.5
+  m_MaxValue: 3
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

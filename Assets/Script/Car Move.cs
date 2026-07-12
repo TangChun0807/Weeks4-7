@@ -19,12 +19,27 @@ public class CarMove : MonoBehaviour
     void Update()
     {
         Vector3 movement = transform.position;
-        movement.x += speed * Time.deltaTime;
-        
 
-        if (movement.x > 6f || movement.x < -6f )
+        movement.x += speed * Time.deltaTime;
+
+        if (movement.x > 6f)
         {
-            speed = -speed;
+            movement.x = 6f;
+
+            if (speed > 0)
+            {
+                speed = -speed;
+            }
+        }
+
+        if (movement.x < -6f)
+        {
+            movement.x = -6f;
+
+            if (speed < 0)
+            {
+                speed = -speed;
+            }
         }
 
         transform.position = movement;
