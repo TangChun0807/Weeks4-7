@@ -630,3 +630,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CarMove
   speed: 1
   slider: {fileID: 0}
+  carBody: {fileID: 3865048262009579738}
